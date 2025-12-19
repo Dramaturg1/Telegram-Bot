@@ -1,3 +1,5 @@
 venv/
 env/
 .venv/
+.rasa
+rasa_venv
