@@ -1,0 +1,37 @@
+version: "3.1"
+
+stories:
+- story: приветствие
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: прощание
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: помощь
+  steps:
+  - intent: ask_help
+  - action: utter_help
+
+- story: запрос подсказки
+  steps:
+  - intent: ask_hint
+  - action: utter_ask_hint
+
+- story: запрос решения
+  steps:
+  - intent: ask_solution
+  - action: utter_ask_solution
+
+- story: запрос задания
+  steps:
+  - intent: ask_task
+  - action: utter_ask_task
+
+- story: благодарность
+  steps:
+  - intent: thanks
+  - action: utter_thanks
