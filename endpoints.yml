@@ -1,0 +1,14 @@
+# endpoints.yml
+
+# This is an example endpoint that connects to a database
+#tracker_store:
+#  type: SQL
+#  url: postgresql://localhost:5432/rasa
+
+# This is an example endpoint that connects to Redis for lock storage
+#lock_store:
+#  type: Redis
+#  url: localhost:6379
+
+action_endpoint:
+  url: "http://localhost:5055/webhook"
